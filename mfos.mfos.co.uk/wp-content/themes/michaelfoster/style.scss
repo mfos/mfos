@@ -1,0 +1,104 @@
+/*
+Theme Name: michaelfoster
+Theme URI: http://underscores.me/
+Author: Michael Foster
+Author URI: http://mfos.co.uk
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: michaelfoster
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+michaelfoster is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Normalize
+2.0 Typography
+3.0 Elements
+4.0 Forms
+5.0 Navigation
+	5.1 Links
+	5.2 Menus
+6.0 Accessibility
+7.0 Alignments
+8.0 Clearings
+9.0 Widgets
+10.0 Content
+	10.1 Posts and pages
+11.0 Infinite scroll
+12.0 Media
+	12.1 Captions
+	12.2 Galleries
+--------------------------------------------------------------*/
+@import "sass/variables-site";
+@import "sass/mixins-master";
+
+/*--------------------------------------------------------------
+1.0 Normalize
+--------------------------------------------------------------*/
+@import "sass/normalize";
+
+/*--------------------------------------------------------------
+2.0 Typography
+--------------------------------------------------------------*/
+@import "sass/typography";
+
+/*--------------------------------------------------------------
+3.0 Elements
+--------------------------------------------------------------*/
+@import "sass/elements";
+
+/*--------------------------------------------------------------
+4.0 Forms
+--------------------------------------------------------------*/
+@import "sass/forms";
+
+/*--------------------------------------------------------------
+5.0 Navigation
+--------------------------------------------------------------*/
+@import "sass/navigation";
+
+/*--------------------------------------------------------------
+6.0 Accessibility
+--------------------------------------------------------------*/
+@import "sass/accessibility";
+
+/*--------------------------------------------------------------
+7.0 Alignments
+--------------------------------------------------------------*/
+@import "sass/alignments";
+
+/*--------------------------------------------------------------
+8.0 Clearings
+--------------------------------------------------------------*/
+@import "sass/clearings";
+
+/*--------------------------------------------------------------
+9.0 Empty
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+10.0 Content
+--------------------------------------------------------------*/
+@import "sass/site";
+
+/*--------------------------------------------------------------
+11.0 Infinite scroll
+--------------------------------------------------------------*/
+@import "sass/infinite-scroll";
+
+/*--------------------------------------------------------------
+12.0 Media
+--------------------------------------------------------------*/
+@import "sass/media";
